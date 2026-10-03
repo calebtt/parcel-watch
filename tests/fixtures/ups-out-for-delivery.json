@@ -1,0 +1,29 @@
+{
+  "trackResponse": {
+    "shipment": [
+      {
+        "package": [
+          {
+            "trackingNumber": "1Z0000000000000000",
+            "deliveryDate": [
+              {
+                "type": "SDD",
+                "date": "20261006"
+              }
+            ],
+            "deliveryTime": {
+              "type": "CMT",
+              "endTime": "103000"
+            },
+            "currentStatus": {
+              "type": "I",
+              "description": "Out For Delivery Today",
+              "code": "OT"
+            },
+            "activity": []
+          }
+        ]
+      }
+    ]
+  }
+}

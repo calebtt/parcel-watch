@@ -1,0 +1,20 @@
+{
+  "output": {
+    "completeTrackResults": [
+      {
+        "trackingNumber": "111111111111",
+        "trackResults": [
+          {
+            "trackingNumberInfo": {
+              "trackingNumber": "111111111111"
+            },
+            "error": {
+              "code": "TRACKING.TRACKINGNUMBER.NOTFOUND",
+              "message": "Tracking number cannot be found. Please correct the tracking number and try again."
+            }
+          }
+        ]
+      }
+    ]
+  }
+}

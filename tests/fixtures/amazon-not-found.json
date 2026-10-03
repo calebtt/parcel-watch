@@ -1,0 +1,27 @@
+{
+    "shipmentProfileType": null,
+    "progressTracker": "{\"progressMeter\":null,\"customerRescheduleRequestInfo\":null,\"errors\":[{\"errorCode\":\"TRACKING_ID_NOT_FOUND\",\"errorMessage\":\"INVALID TRACKING_ID\"}],\"summary\":{\"status\":null,\"metadata\":{},\"proofOfDelivery\":null,\"containerStatusTags\":null,\"valueAddedServices\":null,\"trackingDetailCodes\":null,\"signedStatus\":null},\"expectedDeliveryDate\":null,\"legType\":null,\"hasDeliveryDelayed\":false,\"trackerSource\":\"UNKNOWN\"}",
+    "eventHistory": null,
+    "addresses": null,
+    "eligibleActions": null,
+    "proofOfDeliveryImage": null,
+    "shipperId": null,
+    "packageMarketplaceDetail": null,
+    "shipperBrandingDetails": null,
+    "geocodeDetails": null,
+    "packageAuthenticationDetails": null,
+    "deliveryLocationDetails": null,
+    "recipientDetails": null,
+    "claimYourPackageEligibility": null,
+    "pinsAndBridgesDetails": null,
+    "otpDetails": null,
+    "shipperDetails": null,
+    "d2CDetails": {
+        "isD2CPackage": false,
+        "counterDetails": "null"
+    },
+    "signatureInfo": null,
+    "recipientEligibleActions": null,
+    "returnDetails": null,
+    "predictiveDeliveryWindowDetails": null
+}

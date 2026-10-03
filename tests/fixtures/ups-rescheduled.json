@@ -1,0 +1,32 @@
+{
+  "trackResponse": {
+    "shipment": [
+      {
+        "package": [
+          {
+            "trackingNumber": "1Z0000000000000000",
+            "deliveryDate": [
+              {
+                "type": "SDD",
+                "date": "20261006"
+              },
+              {
+                "type": "RDD",
+                "date": "20261007"
+              }
+            ],
+            "deliveryTime": {
+              "type": "EOD"
+            },
+            "currentStatus": {
+              "type": "X",
+              "description": "The delivery date has been updated.",
+              "code": "XD"
+            },
+            "activity": []
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,62 @@
+{
+  "output": {
+    "completeTrackResults": [
+      {
+        "trackingNumber": "111111111111",
+        "trackResults": [
+          {
+            "trackingNumberInfo": {
+              "trackingNumber": "111111111111"
+            },
+            "latestStatusDetail": {
+              "code": "DL",
+              "derivedCode": "DL",
+              "statusByLocale": "Delivered",
+              "description": "Delivered"
+            },
+            "dateAndTimes": [
+              {
+                "type": "ACTUAL_DELIVERY",
+                "dateTime": "2026-10-06T11:32:00-04:00"
+              },
+              {
+                "type": "ESTIMATED_DELIVERY",
+                "dateTime": "2026-10-06T00:00:00-04:00"
+              }
+            ],
+            "deliveryDetails": {
+              "receivedByName": "PRIVATE RECIPIENT",
+              "actualDeliveryAddress": {
+                "streetLines": [
+                  "PRIVATE STREET"
+                ],
+                "city": "ATLANTA",
+                "stateOrProvinceCode": "GA",
+                "postalCode": "PRIVATE",
+                "countryCode": "US",
+                "residential": false
+              }
+            },
+            "scanEvents": [
+              {
+                "date": "2026-10-06T11:32:00-04:00",
+                "eventType": "DL",
+                "eventDescription": "Delivered",
+                "scanLocation": {
+                  "streetLines": [
+                    "PRIVATE STREET"
+                  ],
+                  "city": "ATLANTA",
+                  "stateOrProvinceCode": "GA",
+                  "postalCode": "PRIVATE",
+                  "countryCode": "US",
+                  "residential": false
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,65 @@
+{
+  "data": {
+    "trackings": [
+      {
+        "tracker": {
+          "trackerId": "fixture",
+          "trackingNumber": "9400100000000000000000",
+          "isSubscribed": true,
+          "createdAt": "2026-10-03T18:00:00.000Z"
+        },
+        "shipment": {
+          "shipmentId": "fixture",
+          "statusCode": "transit",
+          "statusCategory": "transit",
+          "statusMilestone": "in_transit",
+          "originCountryCode": "US",
+          "destinationCountryCode": "US",
+          "delivery": {
+            "estimatedDeliveryDate": "2026-10-06T00:00:00.000Z",
+            "service": null,
+            "signedBy": null
+          },
+          "trackingNumbers": [
+            {
+              "tn": "9400100000000000000000"
+            }
+          ],
+          "recipient": {
+            "name": null,
+            "address": null,
+            "postCode": null
+          }
+        },
+        "events": [
+          {
+            "eventId": "a",
+            "trackingNumber": "9400100000000000000000",
+            "occurrenceDatetime": "2026-10-02T17:05:00",
+            "order": null,
+            "location": "DALLAS, TX 75260",
+            "sourceCode": "usps",
+            "courierCode": "us-post",
+            "statusCode": "pickup",
+            "statusCategory": "transit",
+            "statusMilestone": "in_transit",
+            "status": "USPS picked up item"
+          },
+          {
+            "eventId": "b",
+            "trackingNumber": "9400100000000000000000",
+            "occurrenceDatetime": "2026-10-03T04:12:00",
+            "order": null,
+            "location": "COPPELL TX DISTRIBUTION CENTER",
+            "sourceCode": "usps",
+            "courierCode": "us-post",
+            "statusCode": "transit",
+            "statusCategory": "transit",
+            "statusMilestone": "in_transit",
+            "status": "Departed USPS Regional Facility"
+          }
+        ]
+      }
+    ]
+  }
+}
