@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "parcel-watch": {
+      "command": "parcel-watch",
+      "args": ["mcp"]
+    }
+  }
+}

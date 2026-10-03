@@ -1,0 +1,8 @@
+{
+  "shipmentProfileType": null,
+  "progressTracker": "{\"progressMeter\": {\"milestoneList\": []}, \"errors\": [], \"summary\": {\"status\": \"In transit\", \"metadata\": {\"trackingStatus\": {\"stringValue\": \"IN_TRANSIT\"}, \"expectedDeliveryDate\": {\"date\": \"Oct 5, 2026, 10:00:00 PM\"}, \"shipperName\": {\"stringValue\": \"PRIVATE MERCHANT\"}}}, \"expectedDeliveryDate\": \"Oct 5, 2026, 10:00:00 PM\", \"hasDeliveryDelayed\": false, \"trackerSource\": \"SWA\"}",
+  "eventHistory": "{\"trackerSource\": \"SWA\", \"eventHistory\": [{\"eventCode\": \"CreationConfirmed\", \"statusSummary\": {\"localisedStringId\": \"swa_rex_detail_creation_confirmed\"}, \"eventTime\": \"Oct 2, 2026, 9:15:02 PM\", \"location\": {}}, {\"eventCode\": \"Departed\", \"statusSummary\": {\"localisedStringId\": \"swa_rex_detail_departed\"}, \"eventTime\": \"Oct 3, 2026, 6:40:11 AM\", \"location\": {\"city\": \"Fort Worth\", \"stateProvince\": \"TX\", \"countryCode\": \"US\", \"postalCode\": \"PRIVATE\", \"addressLine1\": \"PRIVATE STREET\"}}, {\"eventCode\": \"Departed\", \"statusSummary\": {\"localisedStringId\": \"swa_rex_detail_departed\"}, \"eventTime\": \"Oct 3, 2026, 6:40:11 AM\", \"location\": {\"city\": \"Fort Worth\", \"stateProvince\": \"TX\", \"countryCode\": \"US\", \"postalCode\": \"PRIVATE\", \"addressLine1\": \"PRIVATE STREET\"}}]}",
+  "addresses": "PRIVATE",
+  "recipientDetails": "PRIVATE RECIPIENT",
+  "proofOfDeliveryImage": null
+}

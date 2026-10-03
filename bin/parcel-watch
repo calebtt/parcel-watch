@@ -1,0 +1,4 @@
+#!/bin/sh
+# Run parcel-watch from a source checkout: bin/parcel-watch <command> ...
+root=$(cd "$(dirname "$(readlink -f "$0")")/.." && pwd)
+PYTHONPATH="$root${PYTHONPATH:+:$PYTHONPATH}" exec python3 -m parcel_watch "$@"

@@ -1,0 +1,26 @@
+{
+  "name": "parcel-watch",
+  "description": "Package tracking and delivery estimates for agents",
+  "owner": {
+    "name": "Caleb Taylor"
+  },
+  "plugins": [
+    {
+      "name": "parcel-watch",
+      "description": "Package tracking with up-to-date delivery estimates from the FedEx and UPS tracking APIs, Amazon's public tracker, and Ship24 for USPS, DHL, and other carriers. Watches packages and reports when a status or delivery estimate changes. Requires Python 3.9+ and your own carrier API keys.",
+      "category": "productivity",
+      "source": {
+        "type": "local",
+        "path": "./plugin"
+      },
+      "homepage": "https://github.com/calebtt/parcel-watch",
+      "keywords": [
+        "parcel-watch",
+        "package tracking",
+        "delivery estimate",
+        "fedex tracking api",
+        "ups tracking api"
+      ]
+    }
+  ]
+}

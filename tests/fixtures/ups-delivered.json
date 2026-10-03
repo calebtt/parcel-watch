@@ -1,0 +1,53 @@
+{
+  "trackResponse": {
+    "shipment": [
+      {
+        "package": [
+          {
+            "trackingNumber": "1Z0000000000000000",
+            "deliveryDate": [
+              {
+                "type": "DEL",
+                "date": "20261006"
+              }
+            ],
+            "deliveryTime": {
+              "type": "DEL",
+              "endTime": "113200"
+            },
+            "deliveryInformation": {
+              "receivedBy": "PRIVATE RECIPIENT",
+              "location": "Front Door"
+            },
+            "currentStatus": {
+              "type": "D",
+              "description": "Delivered",
+              "code": "KB"
+            },
+            "activity": [
+              {
+                "date": "20261006",
+                "time": "113200",
+                "location": {
+                  "address": {
+                    "addressLine1": "PRIVATE STREET",
+                    "city": "Atlanta",
+                    "stateProvince": "GA",
+                    "postalCode": "PRIVATE",
+                    "countryCode": "US"
+                  }
+                },
+                "status": {
+                  "type": "D",
+                  "description": "DELIVERED ",
+                  "code": "KB",
+                  "statusCode": "011"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

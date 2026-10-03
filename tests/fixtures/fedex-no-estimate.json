@@ -1,0 +1,26 @@
+{
+  "output": {
+    "completeTrackResults": [
+      {
+        "trackingNumber": "111111111111",
+        "trackResults": [
+          {
+            "trackingNumberInfo": {
+              "trackingNumber": "111111111111"
+            },
+            "latestStatusDetail": {
+              "code": "OC",
+              "derivedCode": "IN",
+              "statusByLocale": "Label created"
+            },
+            "serviceCommitMessage": {
+              "message": "No scheduled delivery date available at this time.",
+              "type": "ESTIMATED_DELIVERY_DATE_UNAVAILABLE"
+            },
+            "scanEvents": []
+          }
+        ]
+      }
+    ]
+  }
+}

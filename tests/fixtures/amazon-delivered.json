@@ -1,0 +1,4 @@
+{
+  "progressTracker": "{\"errors\": [], \"summary\": {\"status\": \"Delivered\", \"metadata\": {\"trackingStatus\": {\"stringValue\": \"DELIVERED\"}, \"expectedDeliveryDate\": {\"date\": \"Oct 5, 2026, 10:00:00 PM\"}, \"deliveryDate\": {\"date\": \"Oct 5, 2026, 2:03:44 PM\"}}}, \"expectedDeliveryDate\": \"Oct 5, 2026, 10:00:00 PM\", \"trackerSource\": \"SWA\"}",
+  "eventHistory": "{\"eventHistory\": [{\"eventCode\": \"Delivered\", \"eventTime\": \"Oct 5, 2026, 2:03:44 PM\", \"location\": {}}]}"
+}

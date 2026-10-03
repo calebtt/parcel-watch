@@ -1,0 +1,16 @@
+{
+  "trackResponse": {
+    "shipment": [
+      {
+        "inquiryNumber": "1Z0000000000000000",
+        "package": [],
+        "warnings": [
+          {
+            "code": "TW0001",
+            "message": "Tracking Information Not Found"
+          }
+        ]
+      }
+    ]
+  }
+}

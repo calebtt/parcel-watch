@@ -1,0 +1,86 @@
+{
+  "trackResponse": {
+    "shipment": [
+      {
+        "inquiryNumber": "1Z0000000000000000",
+        "package": [
+          {
+            "trackingNumber": "1Z0000000000000000",
+            "deliveryDate": [
+              {
+                "type": "SDD",
+                "date": "20261006"
+              }
+            ],
+            "deliveryTime": {
+              "type": "EDW",
+              "startTime": "103000",
+              "endTime": "143000"
+            },
+            "currentStatus": {
+              "type": "I",
+              "code": "005",
+              "description": "On the Way",
+              "simplifiedTextDescription": "On the Way",
+              "statusCode": "005"
+            },
+            "packageAddress": [
+              {
+                "type": "DESTINATION",
+                "name": "PRIVATE RECIPIENT",
+                "address": {
+                  "addressLine1": "PRIVATE STREET",
+                  "city": "ATLANTA",
+                  "stateProvince": "GA",
+                  "postalCode": "PRIVATE",
+                  "countryCode": "US"
+                }
+              }
+            ],
+            "activity": [
+              {
+                "date": "20261003",
+                "time": "081200",
+                "gmtOffset": "-05:00",
+                "location": {
+                  "address": {
+                    "addressLine1": "PRIVATE STREET",
+                    "city": "Louisville",
+                    "stateProvince": "KY",
+                    "postalCode": "PRIVATE",
+                    "countryCode": "US"
+                  }
+                },
+                "status": {
+                  "type": "I",
+                  "description": "Departed from Facility ",
+                  "code": "DP",
+                  "statusCode": "005"
+                }
+              },
+              {
+                "date": "20261002",
+                "time": "190000",
+                "location": {
+                  "address": {
+                    "addressLine1": "PRIVATE STREET",
+                    "city": "Denver",
+                    "stateProvince": "CO",
+                    "postalCode": "PRIVATE",
+                    "countryCode": "US"
+                  }
+                },
+                "status": {
+                  "type": "P",
+                  "description": "Pickup Scan ",
+                  "code": "PU",
+                  "statusCode": "038"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}

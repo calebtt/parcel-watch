@@ -1,0 +1,25 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "parcel-watch"
+dynamic = ["version"]
+description = "Package tracking with delivery estimates from carrier APIs (FedEx, UPS, Amazon, and others through Ship24), with an MCP server for agents."
+readme = "README.md"
+license = { text = "MIT" }
+authors = [{ name = "Caleb Taylor" }]
+requires-python = ">=3.9"
+dependencies = []
+
+[project.urls]
+Homepage = "https://github.com/calebtt/parcel-watch"
+
+[project.scripts]
+parcel-watch = "parcel_watch.cli:main"
+
+[tool.setuptools]
+packages = ["parcel_watch", "parcel_watch.carriers"]
+
+[tool.setuptools.dynamic]
+version = { attr = "parcel_watch.__version__" }
